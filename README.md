@@ -2,6 +2,7 @@
 
 ![Java](https://img.shields.io/badge/Java-21-blue)
 ![Gradle](https://img.shields.io/badge/Gradle-8-green)
+![JUnit](https://img.shields.io/badge/JUnit-5.9.1-purple)
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 ![Status](https://img.shields.io/badge/Status-Active-brightgreen)
 
@@ -143,7 +144,37 @@ All classes run directly through IntelliJ IDEA, and tests can run through either
 
 ---
 
-### Optional Terminal Commands
+## Test Suites Overview
+
+This module introduces automated unit testing and contains several organized test suites covering core concepts from the module.
+
+### **basic_assertion**
+- verifies correctness of arithmetic operations in `Calculator`
+- tests prime number validation logic in `PrimeChecker`
+- checks manual assertion helper (`ResultChecker`)
+- includes positive, negative, and boundary-value scenarios
+
+### **bank/homework**
+- tests `Bank` and `CashMachine` logic
+- verifies balance calculations
+- validates deposit/withdrawal rules
+- ensures that edge cases (e.g., no transactions) produce correct results
+
+### **school**
+- verifies student grade averaging
+- checks correct handling of empty grade sets
+- tests logic related to class grade summarization
+
+### **MyExercises**
+- verifies correctness of custom utility classes
+- tests data processing, filtering, and validation logic
+
+These suites demonstrate the fundamentals of automated testing:  
+assertions, test structure, separation of concerns, and validating both typical and edge-case scenarios.
+
+---
+
+## Optional Terminal Commands
 
 **Build project:**
 
