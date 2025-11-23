@@ -4,7 +4,7 @@
 ![Gradle](https://img.shields.io/badge/Gradle-8-green)
 ![JUnit](https://img.shields.io/badge/JUnit-5.9.1-purple)
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
-![Status](https://img.shields.io/badge/Status-Active-brightgreen)
+![Status: Completed](https://img.shields.io/badge/Status-Completed-brightgreen)
 
 This repository contains exercises, homework tasks, examples and unit tests created as part of a module in the **Kodilla "Automated Tester" Java course**, focusing on **Java Testing Basics** in Java 21.
 
