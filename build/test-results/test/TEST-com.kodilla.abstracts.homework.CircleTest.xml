@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.kodilla.abstracts.homework.CircleTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2025-11-28T18:09:44.012Z" hostname="DESKTOP-CMK6P3P" time="0.009">
+  <properties/>
+  <testcase name="testSurfaceArea()" classname="com.kodilla.abstracts.homework.CircleTest" time="0.007"/>
+  <testcase name="testCircumference()" classname="com.kodilla.abstracts.homework.CircleTest" time="0.002"/>
+  <system-out><![CDATA[Circle's surface area is: 78.5
+Circle's circumference is: 31.400000000000002
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

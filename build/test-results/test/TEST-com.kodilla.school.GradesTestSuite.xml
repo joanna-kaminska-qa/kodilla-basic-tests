@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.kodilla.school.GradesTestSuite" tests="4" skipped="0" failures="0" errors="0" timestamp="2025-11-16T13:50:41.570Z" hostname="DESKTOP-CMK6P3P" time="0.003">
+<testsuite name="com.kodilla.school.GradesTestSuite" tests="4" skipped="0" failures="0" errors="0" timestamp="2025-11-28T18:09:44.119Z" hostname="DESKTOP-CMK6P3P" time="0.011">
   <properties/>
-  <testcase name="shouldReturnAverageEqualsZeroIsArrayIsEmpty()" classname="com.kodilla.school.GradesTestSuite" time="0.001"/>
+  <testcase name="shouldReturnAverageEqualsZeroIsArrayIsEmpty()" classname="com.kodilla.school.GradesTestSuite" time="0.002"/>
   <testcase name="shouldAddTwoElementsToArray()" classname="com.kodilla.school.GradesTestSuite" time="0.001"/>
-  <testcase name="shouldHaveZeroLength()" classname="com.kodilla.school.GradesTestSuite" time="0.0"/>
-  <testcase name="shouldCalculateAverage()" classname="com.kodilla.school.GradesTestSuite" time="0.0"/>
+  <testcase name="shouldHaveZeroLength()" classname="com.kodilla.school.GradesTestSuite" time="0.001"/>
+  <testcase name="shouldCalculateAverage()" classname="com.kodilla.school.GradesTestSuite" time="0.002"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

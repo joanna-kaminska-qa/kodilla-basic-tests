@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.kodilla.abstracts.homework.SquareTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2025-11-28T18:09:44.039Z" hostname="DESKTOP-CMK6P3P" time="0.006">
+  <properties/>
+  <testcase name="testSurfaceArea()" classname="com.kodilla.abstracts.homework.SquareTest" time="0.003"/>
+  <testcase name="testCircumference()" classname="com.kodilla.abstracts.homework.SquareTest" time="0.002"/>
+  <system-out><![CDATA[Square's surface area is: 16.0
+Square's circumference is: 16.0
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

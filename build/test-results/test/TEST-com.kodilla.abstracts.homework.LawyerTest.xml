@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.kodilla.abstracts.homework.LawyerTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2025-11-28T18:09:44.032Z" hostname="DESKTOP-CMK6P3P" time="0.003">
+  <properties/>
+  <testcase name="testDescribeJob()" classname="com.kodilla.abstracts.homework.LawyerTest" time="0.003"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
