@@ -23,22 +23,33 @@ The project was developed in **IntelliJ IDEA** as part of the learning path for 
 
 ## Description
 
-This module includes a wide range of Java examples and exercises, grouped into logical packages.
+The project includes a wide variety of Java implementations and test suites divided into thematic packages.
 
-### Main topics covered
+### Object-Oriented Programming
+- inheritance (`extends`)
+- constructors, `super()`, encapsulation
+- abstract classes & methods
+- polymorphism
+- composition vs inheritance (“has-a” vs “is-a”)
 
-- building class hierarchies using `extends`
-- constructors, `super()`, private fields and getters
-- abstract classes & abstract methods
-- polymorphism (`Animal animal = new Dog()`)
-- composition vs inheritance ("has-a" vs "is-a")
-- writing first manual assertions (`ResultChecker`)
-- configuring **JUnit 5** in Gradle
+### Testing Fundamentals
+- static & dynamic testing
+- manual assertions (`ResultChecker`)
+- JUnit 5 test structure
+- unit tests for classes and utilities
+- boundary-value & edge-case testing
 - writing automated unit tests using:
     - `assertEquals`
     - `assertTrue` / `assertFalse`
     - delta for comparing doubles
     - test suites structure
+
+### Additional Practice Utilities
+The repo also includes self-written exercises under **MyExercises**, covering:
+- collections
+- data validation
+- enums & switch
+- simple stream and optional operations
 
 ---
 
@@ -47,58 +58,83 @@ This module includes a wide range of Java examples and exercises, grouped into l
 ```
 kodilla-basic-tests/
 ├── src/
-│   ├── main/java/com/kodilla/
-│   │   ├── abstracts/
-│   │   │   ├── Animal.java
-│   │   │   ├── AnimalProcessor.java
-│   │   │   ├── Dog.java
-│   │   │   ├── Duck.java
-│   │   │   └── homework/
-│   │   │       ├── Shape.java
-│   │   │       ├── Circle.java
-│   │   │       ├── Triangle.java
-│   │   │       ├── Square.java
-│   │   │       ├── Job.java
-│   │   │       ├── Person.java
-│   │   │       ├── Lawyer.java
-│   │   │       ├── Firefighter.java
-│   │   │       └── Teacher.java
-│   │   ├── inheritance/
-│   │   │   ├── Car.java
-│   │   │   ├── Convertible.java
-│   │   │   └── homework/
-│   │   │       ├── OperatingSystem.java
-│   │   │       ├── OldSystems.java
-│   │   │       ├── NewSystems.java
-│   │   │       └── SystemsApp.java
-│   │   ├── basic_assertion/
-│   │   │   ├── Calculator.java
-│   │   │   ├── PrimeChecker.java
-│   │   │   ├── ResultChecker.java
-│   │   │   └── Application.java
-│   │   ├── bank/homework/
-│   │   │   ├── Bank.java
-│   │   │   └── CashMachine.java
-│   │   ├── MyExercises/
-│   │   │   ├── ShoppingList.java
-│   │   │   ├── StudentGrades.java
-│   │   │   ├── ToDoList.java
-│   │   │   └── more exercises...
-│   │   └── school/
-│   │       ├── Student.java
-│   │       └── Grades.java
-│   └── test/java/com/kodilla/
-│       ├── bank/homework/BankTestSuite.java
-│       ├── basic_assertion/CalculatorTestSuite.java
-│       ├── basic_assertion/PrimeCheckerTestSuite.java
-│       ├── MyExercises/...TestSuite.java
-│       └── school/...TestSuite.java
+│ ├── main/java/com/kodilla/
+│ │ ├── abstracts/
+│ │ │ ├── Animal.java
+│ │ │ ├── AnimalProcessor.java
+│ │ │ ├── Dog.java
+│ │ │ ├── Duck.java
+│ │ │ └── homework/
+│ │ │ ├── Shape.java
+│ │ │ ├── Circle.java
+│ │ │ ├── Triangle.java
+│ │ │ ├── Square.java
+│ │ │ ├── Job.java
+│ │ │ ├── Person.java
+│ │ │ ├── Lawyer.java
+│ │ │ ├── Firefighter.java
+│ │ │ └── Teacher.java
+│ │ │
+│ │ ├── bank/homework/
+│ │ │ ├── Bank.java
+│ │ │ └── CashMachine.java
+│ │ │
+│ │ ├── basic_assertion/
+│ │ │ ├── Calculator.java
+│ │ │ ├── PrimeChecker.java
+│ │ │ ├── ResultChecker.java
+│ │ │ └── Application.java
+│ │ │
+│ │ ├── inheritance/
+│ │ │ ├── Car.java
+│ │ │ ├── Convertible.java
+│ │ │ └── homework/
+│ │ │ ├── OperatingSystem.java
+│ │ │ ├── OldSystems.java
+│ │ │ ├── NewSystems.java
+│ │ │ └── SystemsApp.java
+│ │ │
+│ │ ├── school/
+│ │ │ ├── Student.java
+│ │ │ └── Grades.java
+│ │ │
+│ │ └── MyExercises/
+│ │ ├── ShoppingList.java
+│ │ ├── Student.java
+│ │ ├── StudentGrades.java
+│ │ ├── TemperatureConverter.java
+│ │ ├── ToDoList.java
+│ │ ├── MyExercises.java
+│ │ │
+│ │ ├── Books/
+│ │ │ ├── Publication.java
+│ │ │ ├── Readable.java
+│ │ │ ├── Book.java
+│ │ │ ├── Magazine.java
+│ │ │ └── BookRepository.java
+│ │ │
+│ │ ├── enumIswitch/
+│ │ │ ├── App.java
+│ │ │ ├── Status.java
+│ │ │ └── Ticket.java
+│ │ │
+│ │ └── streamIoptional/
+│ │ ├── User.java
+│ │ ├── UserRepository.java
+│ │ └── App.java
+│ │
+│ └── test/java/com/kodilla/
+│ ├── abstracts/...Test classes
+│ ├── bank/homework/...Test classes
+│ ├── basic_assertion/...Test classes
+│ ├── inheritance/...Test classes
+│ ├── school/...Test classes
+│ └── MyExercises/...Test classes
 │
 ├── build.gradle
-├── settings.gradle
-├── gradlew / gradlew.bat
 ├── LICENSE
-└── README.md
+├── README.md
+└── structure.txt
 ```
 
 ---
@@ -146,31 +182,47 @@ All classes run directly through IntelliJ IDEA, and tests can run through either
 
 ## Test Suites Overview
 
-This module introduces automated unit testing and contains several organized test suites covering core concepts from the module.
+The project includes comprehensive JUnit 5 test coverage across all modules and custom exercises, exceeding **60% total test coverage**.
 
-### **basic_assertion**
-- verifies correctness of arithmetic operations in `Calculator`
-- tests prime number validation logic in `PrimeChecker`
-- checks manual assertion helper (`ResultChecker`)
-- includes positive, negative, and boundary-value scenarios
+### basic_assertion
+- verifies arithmetic operations  
+- prime number evaluation  
+- manual result checking logic  
 
-### **bank/homework**
-- tests `Bank` and `CashMachine` logic
-- verifies balance calculations
-- validates deposit/withdrawal rules
-- ensures that edge cases (e.g., no transactions) produce correct results
+### bank/homework
+- ATM logic (`CashMachine`)
+- bank transaction aggregation
+- empty and invalid transaction handling
 
-### **school**
-- verifies student grade averaging
-- checks correct handling of empty grade sets
-- tests logic related to class grade summarization
+### abstracts & abstracts/homework
+- abstract class behaviour
+- shape calculations (Circle, Square, Triangle)
+- job hierarchy classes
 
-### **MyExercises**
-- verifies correctness of custom utility classes
-- tests data processing, filtering, and validation logic
+### inheritance & inheritance/homework
+- car inheritance structure
+- operating system start/stop logic
 
-These suites demonstrate the fundamentals of automated testing:  
-assertions, test structure, separation of concerns, and validating both typical and edge-case scenarios.
+### school
+- grade averaging  
+- handling missing grades  
+
+### MyExercises
+- shopping list operations  
+- student grade utilities  
+- temperature conversion  
+- to-do list behaviour  
+
+### Books module
+- repository behaviour  
+- filtering publications  
+- interface/abstract class relations  
+
+### streamIoptional
+- stream transformations  
+- Optional handling & fallbacks  
+
+These suites ensure stable and predictable behaviour across all components and demonstrate testing best practices with JUnit 5.
 
 ---
 
@@ -207,6 +259,7 @@ GitHub: https://github.com/joanna-kaminska-qa
 
 ## Version History
 
+- **0.3** – Expanded test coverage & structural improvements (achieved >60% total test coverage)
 - **0.2** – README added, structural improvements
 - **0.1** – Initial upload
 
