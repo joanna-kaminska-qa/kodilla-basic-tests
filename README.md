@@ -1,4 +1,4 @@
-# kodilla-basic-tests
+# automation-basic-examples
 
 ![Java](https://img.shields.io/badge/Java-21-blue)
 ![Gradle](https://img.shields.io/badge/Gradle-8-green)
